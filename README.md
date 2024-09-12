@@ -1,16 +1,45 @@
-# trabalho5
+# Aplicativo de Empregos - Conectando Desempregados a Oportunidades
 
-A new Flutter project.
+Este aplicativo foi desenvolvido com o objetivo de facilitar o acesso de pessoas desempregadas a vagas de emprego, de acordo com seus perfis e habilidades. Utilizando o Flutter para o desenvolvimento Android e Firebase como backend, o app permite que os usuários busquem vagas de emprego, filtrem por categorias e habilidades, e encontrem oportunidades que correspondam ao seu perfil.
 
-## Getting Started
+## Funcionalidades Principais
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Tecnologias Utilizadas
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- **Flutter**: Framework utilizado para desenvolver o aplicativo para Android.
+- **Firebase Authentication**: Para o gerenciamento de usuários, como login e cadastro.
+- **Firebase Firestore**: Para o armazenamento de vagas de emprego e perfis de usuários.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Pré-requisitos
+
+Antes de começar, você precisará ter os seguintes itens instalados:
+
+- [Flutter SDK](https://flutter.dev/docs/get-started/install)
+- [Android Studio](https://developer.android.com/studio) ou outro IDE compatível com Flutter
+- [Firebase](https://firebase.google.com/) para configurar o backend do projeto.
+
+## Instalação
+
+1. Clone este repositório:
+
+   ```bash
+   git clone https://github.com/Matheus-F-Carneiro/trabalho5.git
+   cd trabalho5
+   ```
+
+2. Instale as dependências do projeto:
+
+   ```bash
+   flutter pub get
+   ```
+
+3. Crie um projeto no Firebase e adicione a configuração ao seu aplicativo Flutter.
+
+4. Configure o Firebase no projeto Flutter.
+
+5. Execute o projeto:
+
+   ```bash
+   flutter run
+   ```

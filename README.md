@@ -1,6 +1,6 @@
 # Aplicativo de Empregos - Conectando Desempregados a Oportunidades
 
-Este aplicativo foi desenvolvido com o objetivo de facilitar o acesso de pessoas desempregadas a vagas de emprego, de acordo com seus perfis e habilidades. Utilizando o Flutter para o desenvolvimento Android e Firebase como backend, o app permite que os usuários busquem vagas de emprego, filtrem por categorias e habilidades, e encontrem oportunidades que correspondam ao seu perfil.
+Este aplicativo foi desenvolvido com o objetivo de facilitar o acesso de pessoas desempregadas a vagas de emprego, de acordo com seus perfis e habilidades. Utilizando o Flutter para o desenvolvimento Android e Firebase como backend, o app permite que os usuários busquem vagas de emprego.
 
 ## Funcionalidades Principais
 
@@ -16,8 +16,8 @@ Este aplicativo foi desenvolvido com o objetivo de facilitar o acesso de pessoas
 Antes de começar, você precisará ter os seguintes itens instalados:
 
 - [Flutter SDK](https://flutter.dev/docs/get-started/install)
-- [Android Studio](https://developer.android.com/studio) ou outro IDE compatível com Flutter
-- [Firebase](https://firebase.google.com/) para configurar o backend do projeto.
+- [Android Studio](https://developer.android.com/studio)
+- [Firebase](https://firebase.google.com/)
 
 ## Instalação
 

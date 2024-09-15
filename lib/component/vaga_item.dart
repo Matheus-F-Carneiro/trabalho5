@@ -4,6 +4,7 @@ import '../model/vaga.dart';
 import '../view/cadastro_vaga.dart';
 import '../view/lista_vagas.dart';
 
+// ignore: must_be_immutable
 class VagaItem extends StatefulWidget {
   final Vaga _vaga;
   List<Vaga> _listaVagas;

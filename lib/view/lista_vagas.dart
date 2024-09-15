@@ -49,19 +49,17 @@ class _ListaVagasState extends State<ListaVagas> {
                   ],
                 ),
               );
-              break;
             case ConnectionState.active:
               break;
             case ConnectionState.done:
               final List<Vaga>? vagas = snapshot.data;
               return ListView.builder(
                 itemBuilder: (context, index) {
-                  final Vaga vaga = vagas![index];
+                  final Vaga vaga = vagas[index];
                   return VagaItem(vaga, _listaVagas, index);
                 },
                 itemCount: vagas!.length,
               );
-              break;
           }
           return Text("Erro");
         },
